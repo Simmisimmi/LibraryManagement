@@ -1,24 +1,43 @@
-Steps
-Clone the repository:
+## Credentials
 
-git clone https://github.com/your-username/library-management-system.git
-Navigate to the project directory:
+- *Guest:*
+  - Username: guest
+  - Password: guest
 
-cd frontend
-cd backend
-Install dependencies:
+- *Admin:*
+  - Username: admin
+  - Password: admin
 
-npm install
-Set up environment variables:
+## Steps
 
-Create a .env file in the root directory and add the following:
+1. *Clone the repository:*
+    bash
+    git clone https://github.com/your-username/library-management-system.git
+    
 
-PORT=3000
-DB_URI=your-mongodb-atlas-url
-SECRET_KEY=mysecret-key
-Replace your-mongodb-atlas-url with the connection URL from your MongoDB Atlas account.
+2. *Navigate to the project directory:*
+    bash
+    cd frontend
+    cd backend
+    
 
-Run the application:
+3. *Install dependencies:*
+    bash
+    npm install
+    
 
-npm start
-The application will be accessible at http://localhost:3000.
+4. *Set up environment variables:*
+    - Create a .env file in the root directory and add the following:
+        env
+        PORT=3000
+        DB_URI=your-mongodb-atlas-url
+        SECRET_KEY=mysecret-key
+        
+        Replace your-mongodb-atlas-url with the connection URL from your MongoDB Atlas account.
+
+5. *Run the application:*
+    bash
+    npm start
+    
+
+6. The application will be accessible at [http://localhost:3000](http://localhost:3000).
